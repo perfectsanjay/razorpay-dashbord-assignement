@@ -2,28 +2,28 @@ import Image from "next/image";
 
 const insights = [
   {
-    icon: "/icon.svg",
+    icon: "icon.svg",
     title: "All Time",
     amount: "₹ 51,060",
     change: "+10% from yesterday",
     changeType: "positive" as const,
   },
   {
-    icon: "/icon1.svg",
+    icon: "icon1.svg",
     title: "All time paid",
     amount: "₹ 21,340",
     change: "+8% from yesterday",
     changeType: "positive" as const,
   },
   {
-    icon: "/icon2.svg",
+    icon: "icon2.svg",
     title: "In last 30 Days",
     amount: "₹ 10,162",
     change: "+2% from yesterday",
     changeType: "positive" as const,
   },
   {
-    icon: "/icon3.svg",
+    icon: "icon3.svg",
     title: "In last 7 Days",
     amount: "₹ 3,890",
     change: "+3% from yesterday",
