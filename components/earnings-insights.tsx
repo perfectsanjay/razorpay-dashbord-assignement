@@ -1,34 +1,15 @@
 import Image from "next/image"
 
+import icon from "../public/icons/icon.svg"
+import icon1 from "../public/icons/icon1.svg"
+import icon2 from "../public/icons/icon2.svg"
+import icon3 from "../public/icons/icon3.svg"
+
 const insights = [
-  {
-    icon: "/icons/icon.svg",
-    title: "All Time",
-    amount: "₹ 51,060",
-    change: "+10% from yesterday",
-    changeType: "positive" as const,
-  },
-  {
-    icon: "/icons/icon1.svg",
-    title: "All time paid",
-    amount: "₹ 21,340",
-    change: "+8% from yesterday",
-    changeType: "positive" as const,
-  },
-  {
-    icon: "/icons/icon2.svg",
-    title: "In last 30 Days",
-    amount: "₹ 10,162",
-    change: "+2% from yesterday",
-    changeType: "positive" as const,
-  },
-  {
-    icon: "/icons/icon3.svg",
-    title: "In last 7 Days",
-    amount: "₹ 3,890",
-    change: "+3% from yesterday",
-    changeType: "positive" as const,
-  },
+  { icon: icon, title: "All Time", amount: "₹ 51,060", change: "+10% from yesterday", changeType: "positive" },
+  { icon: icon1, title: "All time paid", amount: "₹ 21,340", change: "+8% from yesterday", changeType: "positive" },
+  { icon: icon2, title: "In last 30 Days", amount: "₹ 10,162", change: "+2% from yesterday", changeType: "positive" },
+  { icon: icon3, title: "In last 7 Days", amount: "₹ 3,890", change: "+3% from yesterday", changeType: "positive" },
 ]
 
 export function EarningsInsights() {
