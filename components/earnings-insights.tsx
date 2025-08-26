@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-import icon from "../icons/icon.svg";
-import icon1 from "../icons/icon1.svg";
-import icon2 from "../icons/icon2.svg";
-import icon3 from "../icons/icon3.svg";
+import icon from "/icons/icon.svg";
+import icon1 from "/icons/icon1.svg";
+import icon2 from "/icons/icon2.svg";
+import icon3 from "/icons/icon3.svg";
 
 const insights = [
   {
