@@ -1,38 +1,33 @@
 import Image from "next/image";
 
-import icon from "/icons/icon.svg";
-import icon1 from "/icons/icon1.svg";
-import icon2 from "/icons/icon2.svg";
-import icon3 from "/icons/icon3.svg";
-
 const insights = [
   {
-    icon: icon,
+    icon: "icons/icon.svg",
     title: "All Time",
     amount: "₹ 51,060",
     change: "+10% from yesterday",
-    changeType: "positive",
+    changeType: "positive" as const,
   },
   {
-    icon: icon1,
+    icon: "icons/icon1.svg",
     title: "All time paid",
     amount: "₹ 21,340",
     change: "+8% from yesterday",
-    changeType: "positive",
+    changeType: "positive" as const,
   },
   {
-    icon: icon2,
+    icon: "icons/icon2.svg",
     title: "In last 30 Days",
     amount: "₹ 10,162",
     change: "+2% from yesterday",
-    changeType: "positive",
+    changeType: "positive" as const,
   },
   {
-    icon: icon3,
+    icon: "icons/icon3.svg",
     title: "In last 7 Days",
     amount: "₹ 3,890",
     change: "+3% from yesterday",
-    changeType: "positive",
+    changeType: "positive" as const,
   },
 ];
 
