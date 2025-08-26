@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 const insights = [
   {
@@ -53,7 +53,7 @@ export function EarningsInsights() {
           >
             {/* Icon */}
             <div className="bg-[#171821] mr-4  rounded-xl flex items-center justify-center w-16 h-16">
-              <Image
+              <img
                 src={insight.icon}
                 alt={insight.title}
                 width={32}
